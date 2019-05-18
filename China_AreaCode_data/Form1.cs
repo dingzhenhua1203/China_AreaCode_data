@@ -34,7 +34,7 @@ namespace China_AreaCode_data
             //}
             var result=ChinaAreaCrawer.CreateJson();
             result = "const china_area_data =\r\n" + result;
-            ExportFile(result, txtPath.Text);
+            ExportFile(result, "");
         }
 
         private void ExportFile(string log, string filePath )
