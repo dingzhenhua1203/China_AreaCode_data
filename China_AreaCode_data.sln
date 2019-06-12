@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "China_AreaCode_data", "China_AreaCode_data\China_AreaCode_data.csproj", "{5FD41E6B-84EB-4BF4-9D59-B7244C3ED659}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassBuilder", "ClassBuilder\ClassBuilder.csproj", "{1E8D3B7A-DCCF-4BBB-9576-DD4F0BEAEDAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5FD41E6B-84EB-4BF4-9D59-B7244C3ED659}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FD41E6B-84EB-4BF4-9D59-B7244C3ED659}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FD41E6B-84EB-4BF4-9D59-B7244C3ED659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E8D3B7A-DCCF-4BBB-9576-DD4F0BEAEDAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E8D3B7A-DCCF-4BBB-9576-DD4F0BEAEDAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E8D3B7A-DCCF-4BBB-9576-DD4F0BEAEDAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E8D3B7A-DCCF-4BBB-9576-DD4F0BEAEDAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
