@@ -85,7 +85,8 @@ namespace ClassBuilder
             sb.AppendLine($@"/// <summary>");
             sb.AppendLine($@"/// {root.description}");
             sb.AppendLine($@"/// </summary>");
-            sb.AppendLine($@" public class  {root.dataName} { (!string.IsNullOrWhiteSpace(parentId) ? "" : ": PddDDKBaseRequest") }");
+            string classname = string.IsNullOrWhiteSpace(parentId) ? root.dataName : root.dataType.ToString().Replace("[]", "");
+            sb.AppendLine($@" public class  {classname} { (!string.IsNullOrWhiteSpace(parentId) ? "" : ": PddDDKBaseRequest") }");
             sb.AppendLine("{");
             var propList = list.Where(t => t.parentId == root.nodeId).ToList();
             var comboList = new List<dynamic>();
